@@ -2,11 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {
-      // backgroundImage: {
-      //   'hero-pattern': "url('../assets/img/hero-pattern.jpg')",
-      // }
-    },
+    // container: {
+    //   center: true,
+    // },
+    // extend: {
+    //   backgroundImage: {
+    //   'hero-pattern': "url('../assets/img/hero-pattern.jpg')",
+    //   }
+    // },
   },
   plugins: [],
 }

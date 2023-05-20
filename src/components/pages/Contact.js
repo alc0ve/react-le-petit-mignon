@@ -37,45 +37,44 @@ export default function Contact() {
   };
 
   return (
-    <div className='container'>
-      <h1>Contact Me!</h1>
+    <div className='md:container md:mx-auto space-y-4'>
+      <div className='text-2xl'>Contact Me!</div>
       <br></br>
       <form>
-        <div className='mb-3'>
-        <label htmlFor="InputName" className="form-label">Name</label>
+        <div className='grid grid-rows-4 grid-flow-col gap-2'>
+        <label htmlFor="InputName" className="text-lg">Name</label>
         <input
           value={userName}
           name="Name"
           onChange={handleInputChange}
           type="text"
-          className="form-control" 
+          className="outline outline-offset-2 outline-cyan-500 text-base max-w-prose" 
           placeholder="name"
         />
         </div>
-        <div className='mb-3'>
-        <label htmlFor="InputEmail" className="form-label">Email address</label>
+        <div className='grid grid-rows-4 grid-flow-col gap-2'>
+        <label htmlFor="InputEmail" className="text-lg">Email address</label>
         <input
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
-          className="form-control" 
+          className="outline outline-offset-2 outline-cyan-500 text-base max-w-prose" 
           placeholder="name@example.com"
         />
         </div>
-        <div className='mb-3'>
-        <label htmlFor="InputMessage" className="form-label">What would you like to contact me about?</label>
+        <div className='grid grid-rows-4 grid-flow-col'>
+        <label htmlFor="InputMessage" className="text-lg">What would you like to contact me about?</label>
         <textarea
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
-          className="form-control" 
+          className="outline outline-offset-2 outline-cyan-500 text-base max-w-prose" 
           placeholder="message"
-          rows={"3"}
         />
         </div>
-        <button className="btn btn-primary" type="button" onClick={handleFormSubmit}>Submit</button>
+        <button className="rounded-full w-32 h-full bg-cyan-400" type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>
