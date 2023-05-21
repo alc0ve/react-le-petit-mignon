@@ -14,7 +14,7 @@ export default function About() {
       <div className="text-2xl text-black font-semibold my-3">About Me</div>
       <div className="py-8 px-8 max-w-[1040px] m-auto space-y-2 flex sm:items-center sm:space-y-0 sm:space-x-6">
         <img className="block mx-auto h-64 rounded-full sm:mx-0" src={myPic} alt="Me through AI art"/>
-        <p className="">
+        <p className="leading-loose">
         I am a radiologic technologist turned full-stack developer. I've worked with radiology for 5+ years, and am looking to do something different! My brother, who works in tech, inspired me to switch. I hope to learn more and gain many experiences in this next chapter!
         </p>
       </div>
