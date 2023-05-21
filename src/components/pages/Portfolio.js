@@ -1,8 +1,14 @@
 import React from 'react';
+import background from '../../assets/img/hero-pattern.jpg';
 
 export default function Portfolio() {
   return (
-    <div>
+    <div style={{
+      backgroundImage: `url(${background})`,
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    }}className='h-screen'>
       <h1>Portfolio</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.

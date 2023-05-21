@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../utils/helper';
-//import background from '../../assets/img/hero-pattern.jpg';
+import background from '../../assets/img/hero-pattern.jpg';
 
 export default function Contact() {
   const [email, setEmail] = useState('');
@@ -38,15 +38,15 @@ export default function Contact() {
   };
 
   return (
-  // <div style={{
-  //       backgroundImage: `url(${background})`,
-  //       backgroundRepeat: 'no-repeat',
-  //       backgroundSize: 'cover',
-  //       backgroundPosition: 'center',
-  //     }}className='h-screen'>
+  <div style={{
+        backgroundImage: `url(${background})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}className='h-screen'>
 
-    <div className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-      <div className='text-2xl text-black font-semibold'>Contact Me!</div>
+    <div className='max-w-[1040px] m-auto md:pl-20 p-3 py-16'>
+      <div className='text-2xl text-black font-semibold my-3'>Contact Me!</div>
       <br></br>
       <form>
         <div className='flex flex-col py-4 gap-2'>
@@ -82,7 +82,7 @@ export default function Contact() {
           placeholder="What would you like to contact me about?"
         />
         </div>
-        <button className="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2" type="button" onClick={handleFormSubmit}>Submit</button>
+        <button className="px-5 py-2 text-md text-cyan-500 font-semibold rounded-full border border-cyan-400 hover:text-white hover:bg-cyan-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2" type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>
@@ -90,6 +90,6 @@ export default function Contact() {
         </div>
       )}
     </div>
-   // </div>
+   </div>
   );
 }
