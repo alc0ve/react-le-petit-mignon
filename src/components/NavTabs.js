@@ -4,7 +4,7 @@ import React from 'react';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="flex space-x-8">
+    <ul className="bg-gradient-to-r from-sky-500 via-cyan-400 to-neutral-300 flex space-x-8 text-white">
       <li className="nav-item">
         <a
           href="#home"
