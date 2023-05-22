@@ -10,6 +10,7 @@ export default function About() {
       backgroundSize: 'cover',
       backgroundPosition: 'center',
     }}className='h-screen'>
+      
       <div className="max-w-[1040px] m-auto md:pl-20 p-3 py-16">
       <div className="text-2xl text-black font-semibold my-3">About Me</div>
       <div className="py-8 px-8 max-w-[1040px] m-auto space-y-2 flex sm:items-center sm:space-y-0 sm:space-x-6">
