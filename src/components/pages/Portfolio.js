@@ -1,6 +1,7 @@
 import React from 'react';
 import background from '../../assets/img/hero-pattern.jpg';
 import hoppyTrails from '../../assets/img/hoppy-trails.png';
+import ideationApp from '../../assets/img/ideation-app-gen.png';
 
 export default function Portfolio() {
   return (
@@ -14,61 +15,60 @@ export default function Portfolio() {
     <div className="max-w-[1040px] m-auto md:pl-20 p-3 py-16">
       <div className="text-2xl text-black font-semibold my-3">Portfolio</div>
 
-   {/* <div className="grid grid-cols-2"> */}
+   <div className="flex flex-wrap">
   
         {/* Brewery Finder */}
-        <div className="col-xs-8 col-sm-6 col-md-4">
-          <div className="relative flex flex-col items-center justify-center h-auto w-1/3 rounded border-double border-4 border-cyan-600">
-            <h4 className="text-2xl text-black font-semibold my-3">Hoppy Trails</h4>
-              <img className="block mx-auto h-auto rounded p-2" src={process.env.PUBLIC_URL + hoppyTrails}
-                      alt="Hoppy Trails"></img>
-            <div className="items-center px-8">
+        {/* <div className="col-xs-8 col-sm-6 col-md-4"> */}
+          <div className="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg sm:py-2 sm: flex sm:flex-col sm:items-center sm:space-y-4 sm:space-x-4">
+            <h4 className="text-xl text-black font-semibold my-2">Hoppy Trails</h4>
+              <img className="block mx-auto h-auto rounded-xl border-2 border-slate-300 p-2" src={process.env.PUBLIC_URL + hoppyTrails} alt="Hoppy Trails"></img>
+            <div className="items-center px-3 space-y-4">
                   <p className="text-sm">
                   This application will guide and solve avid beer drinks that like to travel, or even stay at home to find a brewery in the user's state!
                   </p>
               <ul className="list-outside flex flex-col items-center space-y-2">
                 <li className="flex">
-                  <a href="https://brianlucy.github.io/ImThirsty/" className="px-3 py-2 text text-cyan-500 font-semibold hover:text-white hover:bg-cyan- hover:border-transparent hover:rounded-lg focus:outline-none focus:rin focus:ring-cyan-600 focus:ring-offset-2"
+                  <a href="https://brianlucy.github.io/ImThirsty/" className="px-3 py-2 text text-cyan-500 font-semibold hover:text-white hover:bg-cyan-500 hover:border-transparent hover:rounded-lg focus:outline-none focus:rin focus:ring-cyan-600 focus:ring-offset-2"
                   target="_blank" rel="noopener noreferrer">
                     Live Site</a>
                 </li>
                 <li className="flex">
-                  <a href="https://github.com/BrianLucy/ImThirsty" className="px-3 py-2 text text-cyan-500 font-semibold hover:text-white hover:bg-cyan- hover:border-transparent hover:rounded-lg focus:outline-none focus:rin focus:ring-cyan-600 focus:ring-offset-2"
+                  <a href="https://github.com/BrianLucy/ImThirsty" className="px-3 py-2 text text-cyan-500 font-semibold hover:text-white hover:bg-cyan-500 hover:border-transparent hover:rounded-lg focus:outline-none focus:rin focus:ring-cyan-600 focus:ring-offset-2"
                   target="_blank" rel="noopener noreferrer">
                     GitHub</a>
                 </li>
               </ul>
             </div>
           </div>
-        </div>
+        {/* </div> */}
 
         {/* Brewery Finder */}
-        <div className="col-xs-12 col-sm-6 col-md-4">
-          <div className="relative flex flex-col items-center justify-center h-auto w-1/3 rounded border-double border-4 border-cyan-600">
-            <h4 className="text-2xl text-black font-semibold my-3">Hoppy Trails</h4>
-              <img className="block mx-auto h-auto rounded p-2" src={process.env.PUBLIC_URL + hoppyTrails}
+        {/* <div className="col-xs-12 col-sm-6 col-md-4"> */}
+          <div className="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg sm:py-2 sm: flex sm:flex-col sm:items-center sm:space-y-4 sm:space-x-4">
+            <h4 className="text-xl text-black font-semibold my-3">Ideation</h4>
+              <img className="block mx-auto h-auto rounded-xl border-2 border-slate-300 p-2" src={process.env.PUBLIC_URL + ideationApp}
                       alt="Hoppy Trails"></img>
             <div className="items-center px-8">
                   <p className="text-sm">
-                  This application will guide and solve avid beer drinks that like to travel, or even stay at home to find a brewery in the user's state!
+                  This application will generate an app idea for anyone looking to create an app.
                   </p>
               <ul className="list-outside flex flex-col items-center space-y-2">
                 <li className="flex">
-                  <a href="https://brianlucy.github.io/ImThirsty/" className="px-3 py-2 text text-cyan-500 font-semibold hover:text-white hover:bg-cyan- hover:border-transparent hover:rounded-lg focus:outline-none focus:rin focus:ring-cyan-600 focus:ring-offset-2"
+                  <a href="https://ideation-app-generator.herokuapp.com/" className="px-3 py-2 text text-cyan-500 font-semibold hover:text-white hover:bg-cyan-500 hover:border-transparent hover:rounded-lg focus:outline-none focus:rin focus:ring-cyan-600 focus:ring-offset-2"
                   target="_blank" rel="noopener noreferrer">
                     Live Site</a>
                 </li>
                 <li className="flex">
-                  <a href="https://github.com/BrianLucy/ImThirsty" className="px-3 py-2 text text-cyan-500 font-semibold hover:text-white hover:bg-cyan- hover:border-transparent hover:rounded-lg focus:outline-none focus:rin focus:ring-cyan-600 focus:ring-offset-2"
+                  <a href="https://github.com/alc0ve/automatic-fortnight-debuggers" className="px-3 py-2 text text-cyan-500 font-semibold hover:text-white hover:bg-cyan-500 hover:border-transparent hover:rounded-lg focus:outline-none focus:rin focus:ring-cyan-600 focus:ring-offset-2"
                   target="_blank" rel="noopener noreferrer">
                     GitHub</a>
                 </li>
               </ul>
             </div>
           </div>
-        </div>
-
         {/* </div> */}
+
+        </div>
 
       </div>
     </div>
