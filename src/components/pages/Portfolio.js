@@ -16,15 +16,18 @@ export default function Portfolio() {
 <div className="max-w-[1040px] m-auto md:pl-20 p-3 py-16">
   <div className="text-2xl text-black font-semibold my-3">Portfolio</div>
 
-   <div className="flex flex-wrap">
+   <div className="flex flex-wrap -mx-1 lg:-mx-4">
   
         {/* Brewery Finder */}
+        {/* column */}
+        <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+          {/* card */}
           <div className="m-2 py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg sm:py-2 sm:flex sm:flex-col sm:items-center sm:space-y-4 sm:space-x-4">
             <h4 className="text-xl text-black font-semibold my-2">Hoppy Trails</h4>
               <img className="block mx-auto h-auto rounded-xl border-2 border-slate-300 p-2" src={process.env.PUBLIC_URL + hoppyTrails} alt="Hoppy Trails"></img>
-            <div className="items-center px-3 space-y-4">
+            <div className="items-center px-1 space-y-4">
                   <p className="text-sm">
-                  This application will guide and solve avid beer drinks that like to travel, or even stay at home to find a brewery in the user's state!
+                  This application will guide avid beer drinkers to find a new brewery in every state.
                   </p>
               <ul className="list-outside flex flex-col items-center space-y-2">
                 <li className="flex">
@@ -40,13 +43,17 @@ export default function Portfolio() {
               </ul>
             </div>
           </div>
+        </div>
 
         {/* Ideation: App Generator */}
+        {/* column */}
+        <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+          {/* card */}
           <div className="m-2 py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg sm:py-2 sm:flex sm:flex-col sm:items-center sm:space-y-4 sm:space-x-4">
             <h4 className="text-xl text-black font-semibold my-3">Ideation</h4>
               <img className="block mx-auto h-auto rounded-xl border-2 border-slate-300 p-2" src={process.env.PUBLIC_URL + ideationApp}
                       alt="Ideation"></img>
-            <div className="items-center px-8">
+            <div className="items-center px-1">
                   <p className="text-sm">
                   This application will generate an app idea for anyone looking to create an app.
                   </p>
@@ -64,15 +71,19 @@ export default function Portfolio() {
               </ul>
             </div>
           </div>
+        </div>
 
         {/* Note Taker Express.js */}
+        {/* column */}
+        <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+        {/* card */}
           <div className="m-2 py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg sm:py-2 sm:flex sm:flex-col sm:items-center sm:space-y-4 sm:space-x-4">
             <h4 className="text-xl text-black font-semibold my-3">Note Taker</h4>
               <img className="block mx-auto h-auto rounded-xl border-2 border-slate-300 p-2" src={process.env.PUBLIC_URL + noteTaker}
                       alt="Note Taker"></img>
-            <div className="items-center px-8">
+            <div className="items-center px-1">
                   <p className="text-sm">
-                  This application is used to write and save notes.
+                  This application is used to write and save notes for whatever your needs are.
                   </p>
               <ul className="list-outside flex flex-col items-center space-y-2">
                 <li className="flex">
@@ -88,6 +99,7 @@ export default function Portfolio() {
               </ul>
             </div>
           </div>
+        </div>
 
         </div>
 
