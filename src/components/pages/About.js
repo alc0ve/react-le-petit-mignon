@@ -1,15 +1,12 @@
 import React from 'react';
-import background from '../../assets/img/hero-pattern.jpg';
+// import background from '../../assets/img/hero-pattern.jpg';
 import myPic from '../../assets/img/my-pic.png';
+import Footer from "../Footer"
 
 export default function About() {
   return (
-    <div style={{
-      backgroundImage: `url(${background})`,
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-    }}className='h-screen'>
+    <>
+    <div className='h-screen'>
       
       <div className="max-w-[1040px] m-auto md:pl-20 p-3 py-16">
       <div className="text-2xl text-black font-semibold my-3">About Me</div>
@@ -21,5 +18,7 @@ export default function About() {
       </div>
     </div>
     </div>
+    <Footer />
+    </>
   );
 }

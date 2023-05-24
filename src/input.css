@@ -1,6 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.my-custom-bg-class{
+/* .my-custom-bg-class{
     background-image: url(./assets/img/hero-pattern.jpg);
+  } */
+
+  body {
+    background-image: url(./assets/img/hero-pattern.jpg);
+    background-repeat: 'no-repeat';
+    background-size: 'cover';
+    background-position: 'center';
   }
