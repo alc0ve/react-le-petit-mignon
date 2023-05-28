@@ -1,5 +1,8 @@
 import React from 'react';
 import Footer from "../Footer"
+import { FaFileDownload } from "react-icons/fa";
+
+let resume = "../../assets/img/Developer-resume.pdf"
 
 export default function Resume() {
   return (
@@ -9,7 +12,16 @@ export default function Resume() {
       <div className="max-w-[1040px] m-auto space-y-2 p-0 py-16 sm:items-center sm:space-y-0 sm:space-x-6 md:pl-20">
       <div className="text-2xl text-black font-semibold my-3">Resume</div>
 
-    <p className="leading-loose">
+      <a
+        className="flex justify-center"
+        href={process.env.PUBLIC_URL + resume}
+        target="_blank" rel="noopener noreferrer">
+        <FaFileDownload size={30}/> 
+        <p className="text-lg text-center">Download My Resume</p>
+      </a>
+      <br></br>
+
+  <p className="leading-loose">
 
 <h1 className="text-xl">Skills:</h1>
       {/* Front-End Proficiencies */}
