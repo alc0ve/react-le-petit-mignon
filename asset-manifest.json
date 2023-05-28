@@ -1,21 +1,14 @@
 {
   "files": {
     "main.css": "/react-le-petit-mignon/static/css/main.fecd099b.css",
-    "main.js": "/react-le-petit-mignon/static/js/main.0d82a66d.js",
-    "static/media/my-pic.png": "/react-le-petit-mignon/static/media/my-pic.65c30284a76e458c47e9.png",
-    "static/media/ideation-app-gen.png": "/react-le-petit-mignon/static/media/ideation-app-gen.7e57869451a7d566d971.png",
+    "main.js": "/react-le-petit-mignon/static/js/main.a2bc66b7.js",
     "static/media/hero-pattern.jpg": "/react-le-petit-mignon/static/media/hero-pattern.400df782a4c6736af12e.jpg",
-    "static/media/hoppy-trails.png": "/react-le-petit-mignon/static/media/hoppy-trails.61aa254f15254abd4133.png",
-    "static/media/password-generator.png": "/react-le-petit-mignon/static/media/password-generator.9c90297967c7b117675b.png",
-    "static/media/weatherapp.png": "/react-le-petit-mignon/static/media/weatherapp.69cd7a7ed9fa64e50098.png",
-    "static/media/daily-planner.png": "/react-le-petit-mignon/static/media/daily-planner.a95a3965daf33bc0dee6.png",
-    "static/media/note-taker-express.png": "/react-le-petit-mignon/static/media/note-taker-express.8ab0131a7fa20970a1ad.png",
     "index.html": "/react-le-petit-mignon/index.html",
     "main.fecd099b.css.map": "/react-le-petit-mignon/static/css/main.fecd099b.css.map",
-    "main.0d82a66d.js.map": "/react-le-petit-mignon/static/js/main.0d82a66d.js.map"
+    "main.a2bc66b7.js.map": "/react-le-petit-mignon/static/js/main.a2bc66b7.js.map"
   },
   "entrypoints": [
     "static/css/main.fecd099b.css",
-    "static/js/main.0d82a66d.js"
+    "static/js/main.a2bc66b7.js"
   ]
 }
