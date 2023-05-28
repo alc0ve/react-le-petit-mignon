@@ -9,9 +9,7 @@ import Footer from "../Footer"
 
 export default function Portfolio() {
   return (
-    <div style={{
-      
-    }} className='h-screen'>
+    <div className='h-screen'>
 
       <div className="max-w-[1040px] m-auto md:pl-20 p-3 py-16">
         <div className="text-2xl text-black font-semibold my-3">Portfolio</div>
