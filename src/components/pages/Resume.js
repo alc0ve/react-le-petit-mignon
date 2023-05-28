@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from "../Footer"
 import { FaFileDownload } from "react-icons/fa";
 
-let resume = "../../assets/img/Developer-resume.pdf"
+let resume = "/assets/img/Developer-resume.pdf"
 
 export default function Resume() {
   return (

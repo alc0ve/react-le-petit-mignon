@@ -1,11 +1,11 @@
 import React from 'react';
 // import background from '../../assets/img/hero-pattern.jpg';
-import hoppyTrails from '../../assets/img/hoppy-trails.png';
-import ideationApp from '../../assets/img/ideation-app-gen.png';
-import noteTaker from '../../assets/img/note-taker-express.png';
-import passwordGen from '../../assets/img/password-generator.png';
-import weatherApp from '../../assets/img/weatherapp.png';
-import dailyPlanner from '../../assets/img/daily-planner.png';
+import hoppyTrails from '/assets/img/hoppy-trails.png';
+import ideationApp from '/assets/img/ideation-app-gen.png';
+import noteTaker from '/assets/img/note-taker-express.png';
+import passwordGen from '/assets/img/password-generator.png';
+import weatherApp from '/assets/img/weatherapp.png';
+import dailyPlanner from '/assets/img/daily-planner.png';
 import Footer from "../Footer"
 
 export default function Portfolio() {
