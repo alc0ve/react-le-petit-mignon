@@ -6,9 +6,8 @@ export default function Resume() {
     <>
     <div className='h-screen'>
       
-      <div className="max-w-[1040px] m-auto md:pl-20 p-3 py-16">
+      <div className="max-w-[1040px] m-auto space-y-2 p-0 py-16 sm:items-center sm:space-y-0 sm:space-x-6 md:pl-20">
       <div className="text-2xl text-black font-semibold my-3">Resume</div>
-      {/* <div className="py-8 px-8 max-w-[1040px] m-auto space-y-2 flex sm:items-center sm:space-y-0 sm:space-x-6"> */}
 
     <p className="leading-loose">
 
@@ -31,7 +30,7 @@ export default function Resume() {
       </div>
     </div>
   </div>
-  {/* <!-- Back-End Prof --> */}
+  {/* <!-- Back-End Proficiencies --> */}
   <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2">
     <div className="">
       <div className="p-4">
@@ -78,59 +77,13 @@ export default function Resume() {
       </div>
     </div>
   </div>
-
 </div>
 
-      {/* <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-      <div className="">
-      <h3 className="text-lg">Front-End Proficiencies</h3>
-      <p className="text-md">
-        HTML <br></br>
-        CSS <br></br>
-        JavaScript ES6+<br></br>
-        jQuery <br></br>
-        Responsive/Mobile First Design <br></br>
-        React <br></br>
-        Bootstrap, Tailwind, Bulma <br></br>
-      </p> <br></br>
-      </div>
-      </div> */}
-
-      {/* <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-      <h3>Back-End Proficiencies</h3>
-      <p>
-        Web APIs, Third-Party APIs, Server-Side APIs, REST APIs <br></br>
-        Node.js <br></br>
-        Express.js <br></br>
-        MySQL, Sequelize <br></br>
-        MongoDB, Mongoose <br></br>
-        GraphQL <br></br>
-      </p> <br></br>
-      </div>
-
-      <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-      <h3>Full-Stack Proficiencies</h3>
-      <p>
-        MERN
-      </p> <br></br>
-      </div>
-
-      <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-      <h3>Other</h3>
-      <p>
-        Git <br></br>
-        Markdown <br></br>
-        GitHub Pages <br></br>
-        Heroku <br></br>
-        NPM <br></br>
-      </p>
-      </div> */}
-
-        </p>
+    </p>
 
     </div>
     </div>
-    {/* </div> */}
+
     <Footer />
     </>
   );
