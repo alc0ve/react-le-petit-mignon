@@ -4,7 +4,7 @@
 
 ## Description
 
-My Portfolio template for developer/designers built with React. I used it to showcase basic about me, my work, and other information to clients. This is an updated portfolio with use of React. It contains an about me, project/portfolio section, resume section with a downloadable pdf, and a contact secton with a form to submit that I will directly receive via email.
+This is an updated portfolio with use of React. It contains an about me, project/portfolio section, resume section with a downloadable pdf, and a contact secton with a form to submit that I will directly receive via email.
 
 ## Table of Contents
 
@@ -20,19 +20,19 @@ My Portfolio template for developer/designers built with React. I used it to sho
 
 ## Usage (Instructions/How-To Use)
 
-Simply visit the deployed link and use the navigation bar to see different pages. On the resume section, clicking 'Download Resume' will download a PDF of my resume to your computer. On the contact section, simply fill out the form and click 'Submit.'
+Simply visit the deployed link and use the navigation bar to see the different pages. On the resume section, clicking 'Download Resume' will download a PDF of my resume to your computer. On the contact section, simply fill out the form and click 'Submit' if you'd like to contact me.
 
 ## Deployment
-Live URL: <a href="https://rocky-earth-32860.herokuapp.com/">My Portfolio</a>
+Live URL: <a href="https://alc0ve.github.io/react-le-petit-mignon/">My Portfolio</a>
 
 ## Screenshot
 
 Screenshot of my react portfolio:
-![text-editor-screenshot](https://github.com/alc0ve/text-editor-pwa/assets/117237641/ef5cefe1-99b4-41e7-8009-a841fb2f22c7)
+![react-portfolio-screenshot](https://github.com/alc0ve/react-le-petit-mignon/assets/117237641/6f4e78d0-5d50-4f68-9c66-e4c2c30a75cd)
 
 ## Features
 
-Formspress, GitHub Pages
+Formspree, GitHub Pages
 
 ## Technologies
 
