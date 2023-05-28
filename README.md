@@ -1,71 +1,72 @@
-# Getting Started with Create React App
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Portfolio
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+My Portfolio template for developer/designers built with React. I used it to showcase basic about me, my work, and other information to clients. This is an updated portfolio with use of React. It contains an about me, project/portfolio section, resume section with a downloadable pdf, and a contact secton with a form to submit that I will directly receive via email.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Screenshot](#screenshot)
+- [Features](#features)
+- [Technologies](#technologies)
+- [License](#license)
+- [Credits](#credits)
+- [Contribution](#how-to-contribute)
+- [Contact / Questions](#contact--questions)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage (Instructions/How-To Use)
 
-### `npm test`
+Simply visit the deployed link and use the navigation bar to see different pages. On the resume section, clicking 'Download Resume' will download a PDF of my resume to your computer. On the contact section, simply fill out the form and click 'Submit.'
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deployment
+Live URL: <a href="https://rocky-earth-32860.herokuapp.com/">My Portfolio</a>
 
-### `npm run build`
+## Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Screenshot of my react portfolio:
+![text-editor-screenshot](https://github.com/alc0ve/text-editor-pwa/assets/117237641/ef5cefe1-99b4-41e7-8009-a841fb2f22c7)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Formspress, GitHub Pages
 
-### `npm run eject`
+## Technologies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+JavaScript, HTML, CSS, Node.js, React, Tailwind CSS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   Copyright © [2023] [Christina Hall]
 
-## Learn More
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Credits
 
-### Code Splitting
+<li><a href="https://github.com/tlequernaque" target="_blank">Terry Lequernaque</a>: Full-Stack Developer</li>
+<li><a href="https://github.com/blairrrrwho" target="_blank">Blair Millet</a>: Full-Stack Developer</li>
+<li><a href="https://github.com/BJThompson12" target="_blank">Brandon Thompson</a>: Full-Stack Developer
+<li>My tutor provided some guidance throughout the making of this application.</li>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## How to Contribute
 
-### Analyzing the Bundle Size
+Fork the repo and clone down to your local machine. Once you have the latest version of the repo, you can add or make changes then submit a pull request for your changes. Please refer to the [Contributor Covenant](https://www.contributor-covenant.org/) as an industry standard. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The pull request body should describe why these changes are necessary. If there is a bug, provide a description of what steps to take to reproduce this bug. If these guidelines are not met, pull requests will not be reviewed or accepted.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# react-le-petit-mignon
+## Contact / Questions
+  If you liked this project and want to see more, feel free to check out my other repos [here](https://github.com/alc0ve).  
+  For any questions or inquiries, you can reach me at cmcclai26@gmail.com for further information.
