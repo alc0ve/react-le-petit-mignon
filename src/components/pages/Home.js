@@ -1,5 +1,5 @@
 import React from 'react';
-import myPic from '../../assets/img/my-pic.png';
+import myPic from '/assets/img/my-pic.png';
 import Footer from "../Footer";
 
 
