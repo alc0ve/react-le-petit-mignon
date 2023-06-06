@@ -10,7 +10,7 @@ let dailyPlanner = '/assets/img/daily-planner.png';
 
 export default function Portfolio() {
   return (
-    <div className='h-screen'>
+    <div className='flex flex-col min-h-screen'>
 
       <div className="max-w-[1040px] m-auto md:pl-20 p-3 py-16">
         <div className="text-2xl text-black font-semibold my-3">Portfolio</div>

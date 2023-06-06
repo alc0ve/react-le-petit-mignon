@@ -5,15 +5,33 @@
     background-image: url(./assets/img/hero-pattern.jpg);
   } */
 
+  html, body {
+    height: 100%;
+  }
+
   body {
+    display: flex;
+    flex-direction: column;
     background-image: url(../public/assets/img/hero-pattern.jpg);
     background-repeat: 'no-repeat';
     background-size: 'cover';
     background-position: 'center';
   }
 
-@media screen and (max-width: 714px) {
+/* @media screen and (max-width: 714px) {
   .m-auto {
    display: block;
   }
+} */
+
+.flex-grow {
+  flex-grow: 1;
 }
+
+
+@media (max-width: 640px) {
+  .max-w-1040px {
+    max-width: 90%;
+  }
+};
+

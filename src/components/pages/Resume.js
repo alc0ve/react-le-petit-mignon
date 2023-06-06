@@ -7,7 +7,7 @@ let resume = "/assets/img/Developer-resume.pdf"
 export default function Resume() {
   return (
     <>
-    <div className='h-screen'>
+    <div className='flex flex-col min-h-screen'>
       
       <div className="max-w-[1040px] m-auto space-y-2 p-0 py-16 sm:items-center sm:space-y-0 sm:space-x-6 md:pl-20">
       <div className="text-2xl text-black font-semibold my-3">Resume</div>

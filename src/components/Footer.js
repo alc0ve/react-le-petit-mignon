@@ -4,7 +4,10 @@ import { SiLeetcode } from "react-icons/si";
 
 export default function Footer() {
   return (
-    <div className="bg-gradient-to-r from-sky-400 via-cyan-300 to-neutral-100 flex space-x-8 text-white">
+    <div className="bg-gradient-to-r from-sky-400 via-cyan-300 to-indigo-200 flex space-x-8 text-white">
+      <div className="flex-grow text-lg mt-5 mx-8">
+        ✨Made with 💛✨
+      </div>
       <footer className="flex justify-between">
 
           <ul className="flex flex-row justify-between">
