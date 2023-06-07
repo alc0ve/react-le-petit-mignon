@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-le-petit-mignon/static/css/main.1223a0c5.css",
-    "main.js": "/react-le-petit-mignon/static/js/main.56ec200c.js",
+    "main.css": "/react-le-petit-mignon/static/css/main.3f298b6b.css",
+    "main.js": "/react-le-petit-mignon/static/js/main.a30e2f4a.js",
     "static/media/hero-pattern.jpg": "/react-le-petit-mignon/static/media/hero-pattern.400df782a4c6736af12e.jpg",
     "index.html": "/react-le-petit-mignon/index.html",
-    "main.1223a0c5.css.map": "/react-le-petit-mignon/static/css/main.1223a0c5.css.map",
-    "main.56ec200c.js.map": "/react-le-petit-mignon/static/js/main.56ec200c.js.map"
+    "main.3f298b6b.css.map": "/react-le-petit-mignon/static/css/main.3f298b6b.css.map",
+    "main.a30e2f4a.js.map": "/react-le-petit-mignon/static/js/main.a30e2f4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.1223a0c5.css",
-    "static/js/main.56ec200c.js"
+    "static/css/main.3f298b6b.css",
+    "static/js/main.a30e2f4a.js"
   ]
 }
