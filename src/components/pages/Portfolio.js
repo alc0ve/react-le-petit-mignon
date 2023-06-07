@@ -24,7 +24,7 @@ export default function Portfolio() {
             <div className="m-2 py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg sm:py-2 sm:flex sm:flex-col sm:items-center sm:space-y-4 sm:space-x-4">
               <h4 className="text-xl text-black font-semibold my-3">Hoppy Trails</h4>
               <img className="block mx-auto h-auto rounded-xl border-2 border-slate-300 p-2" src={process.env.PUBLIC_URL + hoppyTrails} alt="Hoppy Trails"></img>
-              <div className="items-center px-1 space-y-4">
+              <div className="items-center px-1">
                 <p className="text-sm">
                   This application will guide avid beer drinkers to find a new brewery in every state.
                 </p>

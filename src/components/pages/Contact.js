@@ -87,7 +87,7 @@ export default function Contact() {
         />
         <ValidationError prefix="Message" field="message" errors={state.errors} />
         </div>
-        <button className="px-5 py-2 text-md text-cyan-600 font-semibold rounded-full border border-cyan-400 hover:text-white hover:bg-cyan-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2" type="submit" disabled={state.submitting}>Submit</button>
+        <button className="px-5 py-2 text-md bg-cyan-500 rounded-full text-white hover:bg-cyan-600 font-semibold hover:border-transparent focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2" type="submit" disabled={state.submitting}>Submit</button>
       </form>
       {errorMessage && (
         <div>
