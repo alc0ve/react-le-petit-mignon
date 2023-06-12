@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from "../Footer"
 
+let codeCollab = '/assets/img/CodeCollabHomepage.png'
 let hoppyTrails = '/assets/img/hoppy-trails.png';
 let ideationApp = '/assets/img/ideation-app-gen.png';
 let noteTaker = '/assets/img/note-taker-express.png';
@@ -16,6 +17,33 @@ export default function Portfolio() {
         <div className="text-2xl text-black font-semibold my-3">Portfolio</div>
 
         <div className="flex flex-wrap -mx-1 lg:-mx-4">
+
+          {/* CodeCollab */}
+          {/* column */}
+          <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+            {/* card */}
+            <div className="m-2 py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg sm:py-2 sm:flex sm:flex-col sm:items-center sm:space-y-4 sm:space-x-4">
+              <h4 className="text-xl text-black font-semibold my-3">CodeCollab</h4>
+              <img className="block mx-auto h-auto rounded-xl border-2 border-slate-300 p-2" src={process.env.PUBLIC_URL + codeCollab} alt="CodeCollab"></img>
+              <div className="items-center px-1">
+                <p className="text-sm">
+                  This is a blog for bootcampers to share information that can be useful for other developers.
+                </p>
+                <ul className="list-outside flex flex-col items-center space-y-2">
+                  <li className="flex">
+                    <a href="https://codecollab-for-developers.herokuapp.com/" className="px-3 py-2 text text-cyan-500 font-semibold hover:text-white hover:bg-cyan-500 hover:border-transparent hover:rounded-lg focus:outline-none focus:rin focus:ring-cyan-600 focus:ring-offset-2"
+                      target="_blank" rel="noopener noreferrer">
+                      Live Site</a>
+                  </li>
+                  <li className="flex">
+                    <a href="https://github.com/blairrrrwho/codecollab" className="px-3 py-2 text text-cyan-500 font-semibold hover:text-white hover:bg-cyan-500 hover:border-transparent hover:rounded-lg focus:outline-none focus:rin focus:ring-cyan-600 focus:ring-offset-2"
+                      target="_blank" rel="noopener noreferrer">
+                      GitHub</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
           {/* Brewery Finder */}
           {/* column */}
@@ -163,7 +191,7 @@ export default function Portfolio() {
                 alt="Daily Planner"></img>
               <div className="items-center px-1">
                 <p className="text-sm">
-                A 9-5 planner used to jot down important tasks during those hours of the day.
+                  A 9-5 planner used to jot down important tasks during those hours of the day.
                 </p>
                 <ul className="list-outside flex flex-col items-center space-y-2">
                   <li className="flex">
